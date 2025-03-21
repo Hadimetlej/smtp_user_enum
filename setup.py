@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages # type: ignore
 
 setup(
     name="smtp_user_enum",  # Name of your project
@@ -6,7 +6,7 @@ setup(
     description="SMTP User Enumeration Script for enumerating valid usernames on an SMTP server",
     author="Hadi Metlej",  
     author_email="hadi531metlej@gmai.com",
-    url="https://github.com/yourusername/smtp_user_enum",  # Project URL (replace with your GitHub or website URL)
+    url="https://github.com/Hadimetlej/smtp_user_enum",  # Project URL (replace with your GitHub or website URL)
     packages=find_packages(),  
     install_requires=[  
         "colorama",  
