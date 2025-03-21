@@ -17,9 +17,9 @@ This script is used for username enumeration as part of a penetration testing me
    cd ~
    git clone https://github.com/Hadimetlej/smtp_user_enum.git
    cd smtp_user_enum
-   python3 smtp_user_enum -h
+   python setup.py install --user
+   smtp_user_enum -h
    
-      
 
    
    
