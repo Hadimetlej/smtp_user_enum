@@ -1,5 +1,4 @@
-# filepath: c:\Users\hadi5\OneDrive\Desktop\Machine learning\setup.py
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages # type: ignore
 
 setup(
     name="smtp_user_enum",  # Name of your project
