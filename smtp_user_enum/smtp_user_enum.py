@@ -151,9 +151,10 @@ def enumerate_users(ip, port, usernames, outputfile, verbose, debug):
     print(f"Enumeration completed at {timestamp}")
 
 # Main execution
-if __name__ == "__main__":
+def main():
     ip, port, outputfile, userfile, verbose, debug = parse_arguments()
-
     usernames = check_file(userfile)
-
     enumerate_users(ip, port, usernames, outputfile, verbose, debug)
+
+if __name__ == "__main__":
+    main()
