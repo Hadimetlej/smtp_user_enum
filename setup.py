@@ -5,7 +5,7 @@ setup(
     version="1.0.0",  # Version of the project
     description="SMTP User Enumeration Script for enumerating valid usernames on an SMTP server",
     author="Hadi Metlej",  
-    author_email="hadi531metlej@gmai.com",  s
+    author_email="hadi531metlej@gmai.com",
     url="https://github.com/yourusername/smtp_user_enum",  # Project URL (replace with your GitHub or website URL)
     packages=find_packages(),  
     install_requires=[  
